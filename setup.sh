@@ -9,8 +9,6 @@ kubectl apply -f cis/secret_sa_rbac.yaml
 kubectl apply -f cis/cis1.yaml
 
 #deploy IPAM
-kubectl apply -f ipam/crd-schema.yaml
-kubectl apply -f ipam/rbac.yaml
 kubectl apply -f ipam/pvc.yaml
 kubectl apply -f ipam/deployment.yaml
 
